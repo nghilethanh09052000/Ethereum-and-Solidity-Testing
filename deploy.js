@@ -5,7 +5,7 @@ const Web3 = require("web3");
 
 
 const provider= new HDWalletProvider(
-    'thumb degree yard uncover sample danger punch soap eager cross path retire',
+    process.env.mnemonic,
     'https://goerli.infura.io/v3/70b6aa6fb7fc416b881f90ca3f0994c4'
 )
 const web3 = new Web3(provider);
